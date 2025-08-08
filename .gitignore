@@ -1,0 +1,28 @@
+# Ignore dataset folders
+task/task 8/Train/
+task/task 8/Test/
+task/task 8/Meta/
+
+# Ignore CSV files (optional)
+task/*/*.csv
+
+# Ignore zip files
+*.zip
+
+# VS Code settings and OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter checkpoint files
+.ipynb_checkpoints/
+
+# Environment files
+.env
+*.egg-info/
