@@ -5,7 +5,14 @@ task/*/Meta/
 task/*/data
 
 # Ignore CSV files (optional)
-**/*.csv
+**/*.csv 
+**/*.info 
+**/*.data 
+**/*.data.gz 
+**/*.zip 
+**/*.tar.gz 
+**/*.h5 
+**/*.pkl
 
 # Ignore zip files
 *.zip
@@ -27,3 +34,4 @@ __pycache__/
 # Environment files
 .env
 *.egg-info/
+task/task 3/test.h5
