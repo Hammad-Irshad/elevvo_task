@@ -2,9 +2,10 @@
 task/*/Train/
 task/*/Test/
 task/*/Meta/
+task/*/data
 
 # Ignore CSV files (optional)
-task/*/*.csv
+**/*.csv
 
 # Ignore zip files
 *.zip
